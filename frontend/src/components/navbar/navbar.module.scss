@@ -1,0 +1,59 @@
+.container{
+    width: 100vw;
+    height: 50px;
+    background-color: #1a29af;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px 10px 10px;
+    z-index: 1000;
+    
+
+    h1{
+        color: white;
+        cursor: default;
+        font-size: 30px;
+    }
+    p{
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        &:hover{
+            color: rgb(72, 202, 20);
+        }
+    }
+}
+.userBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 800px) {
+    
+    .container{
+        padding: 10px;
+        h1{
+            font-size: 28px;
+        }
+        p,.userBox{
+            font-size: 16px;
+        }
+    }
+  }
+
+@media screen and (max-width: 600px) {
+    .container{
+
+        h1{
+            font-size: 24px;
+        }
+    }
+   
+    
+  }

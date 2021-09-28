@@ -1,0 +1,47 @@
+.body{
+    margin-top: 50px;
+    // background-color: rgb(109, 158, 86);
+    min-height: 90vh;
+    padding-top: 80px;
+}
+.cardContainer{
+    height: 400px;
+    // background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+// .cardContainer:hover::after{
+//     content: "aaaa";
+//     position: absolute;
+//     background-color: red;
+//     height: 400px;
+//     width: 100%;
+   
+// }
+.imageContainer{
+    height: 100%;
+    width: auto;
+}
+
+.imageContainer img{
+    height: 100%;
+}
+.text{
+    max-width: 268px;
+    position: relative;
+    bottom: 405px;
+    color: transparent;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.text:hover{
+    background-color: rgba(0, 0, 0, 0.651);
+    color: white;
+  
+}

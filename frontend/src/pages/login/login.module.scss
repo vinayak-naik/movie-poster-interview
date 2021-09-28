@@ -1,0 +1,46 @@
+.container {
+  min-height: 100vh;
+  width: 100vw;
+  // background-color: rgb(236, 223, 203);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.outerBox {
+  max-width: 600px;
+  //  border: 1px solid green;
+  border-radius: 8px;
+  padding: 50px;
+}
+.innerBox {
+  height: 100%;
+  width: 100%;
+  // background-color: rgb(89, 218, 39);
+  border-radius: 8px;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+.inputWrap {
+  padding: 8px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.button {
+  text-transform: lowercase;
+}
+.toast {
+  position: fixed;
+  bottom: 100px;
+}
+
+@media screen and (max-width: 500px) {
+  .outerBox {
+    padding: 20px 10px;
+  }
+}
